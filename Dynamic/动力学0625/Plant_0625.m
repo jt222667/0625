@@ -28,7 +28,11 @@ sizes.NumInputs      = 7;
 sizes.DirFeedthrough = 0;
 sizes.NumSampleTimes = 1;
 sys = simsizes(sizes);
-x0  = [0.3 0.3 0.3 0.3 0.3 0.3 0.3 0 0 0 0 0 0 0 ];
+
+k=4
+
+x0  = [0 0 0 0 0 0 0 0 0 0 0 0 0 0];
+x0(k+7) = pi/2;
 str = [];
 ts  = [0 0];
 end

@@ -1,0 +1,13 @@
+# ninja log v5
+4	42	8041613790073868	build/win64/rt_nonfinite.obj	ed44138b258d7822
+2	50	8041613790151754	build/win64/calc_MCG_0625_data.obj	4201cbd62cb3c9b0
+7	53	8041613790151754	build/win64/c_mexapi_version.obj	aae773e1663707a0
+1	53	8041613790176813	build/win64/calc_MCG_0625_terminate.obj	cee5bcbc474aead9
+3	54	8041613790186895	build/win64/calc_MCG_0625_initialize.obj	1207b4957b5fdebf
+6	59	8041613790243702	build/win64/_coder_calc_MCG_0625_mex.obj	fa45f720c325ec62
+11	66	8041613790311056	build/win64/_coder_calc_MCG_0625_info.obj	e04bf73c905d73a6
+5	140	8041613791049201	build/win64/_coder_calc_MCG_0625_api.obj	46da31fa2f8d051e
+6	177	8041613791425396	build/win64/calc_pos_0318.obj	11b64d8d522db378
+9	294	8041613792588955	build/win64/calc_aa_0318.obj	25f756a770b90e91
+8	532	8041613794955668	build/win64/calc_MCG_0625.obj	4549946e63ac3fa
+534	563	8041613795287477	calc_MCG_0625_mex.mexw64	8ba1aa39df80d7db

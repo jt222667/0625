@@ -1,0 +1,68 @@
+[
+  {
+    "directory": "F:\\Archive 归档\\0625\\Dynamic\\codegen\\mex\\calc_MCG_0625",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"F:\\Archive 归档\\0625\\Dynamic\" /I \".\\interface\" /I \"F:\\MATLAB\\R2025b\\extern\\include\" /I \".\" -DMODEL=calc_MCG_0625_mex /openmp /wd4101  calc_MCG_0625_data.c /Fobuild\\win64\\calc_MCG_0625_data.obj",
+    "file": "calc_MCG_0625_data.c",
+    "output": "build/win64/calc_MCG_0625_data.obj"
+  },
+  {
+    "directory": "F:\\Archive 归档\\0625\\Dynamic\\codegen\\mex\\calc_MCG_0625",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"F:\\Archive 归档\\0625\\Dynamic\" /I \".\\interface\" /I \"F:\\MATLAB\\R2025b\\extern\\include\" /I \".\" -DMODEL=calc_MCG_0625_mex /openmp /wd4101  rt_nonfinite.c /Fobuild\\win64\\rt_nonfinite.obj",
+    "file": "rt_nonfinite.c",
+    "output": "build/win64/rt_nonfinite.obj"
+  },
+  {
+    "directory": "F:\\Archive 归档\\0625\\Dynamic\\codegen\\mex\\calc_MCG_0625",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"F:\\Archive 归档\\0625\\Dynamic\" /I \".\\interface\" /I \"F:\\MATLAB\\R2025b\\extern\\include\" /I \".\" -DMODEL=calc_MCG_0625_mex /openmp /wd4101  calc_MCG_0625_initialize.c /Fobuild\\win64\\calc_MCG_0625_initialize.obj",
+    "file": "calc_MCG_0625_initialize.c",
+    "output": "build/win64/calc_MCG_0625_initialize.obj"
+  },
+  {
+    "directory": "F:\\Archive 归档\\0625\\Dynamic\\codegen\\mex\\calc_MCG_0625",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"F:\\Archive 归档\\0625\\Dynamic\" /I \".\\interface\" /I \"F:\\MATLAB\\R2025b\\extern\\include\" /I \".\" -DMODEL=calc_MCG_0625_mex /openmp /wd4101  calc_MCG_0625_terminate.c /Fobuild\\win64\\calc_MCG_0625_terminate.obj",
+    "file": "calc_MCG_0625_terminate.c",
+    "output": "build/win64/calc_MCG_0625_terminate.obj"
+  },
+  {
+    "directory": "F:\\Archive 归档\\0625\\Dynamic\\codegen\\mex\\calc_MCG_0625",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"F:\\Archive 归档\\0625\\Dynamic\" /I \".\\interface\" /I \"F:\\MATLAB\\R2025b\\extern\\include\" /I \".\" -DMODEL=calc_MCG_0625_mex /openmp /wd4101  calc_MCG_0625.c /Fobuild\\win64\\calc_MCG_0625.obj",
+    "file": "calc_MCG_0625.c",
+    "output": "build/win64/calc_MCG_0625.obj"
+  },
+  {
+    "directory": "F:\\Archive 归档\\0625\\Dynamic\\codegen\\mex\\calc_MCG_0625",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"F:\\Archive 归档\\0625\\Dynamic\" /I \".\\interface\" /I \"F:\\MATLAB\\R2025b\\extern\\include\" /I \".\" -DMODEL=calc_MCG_0625_mex /openmp /wd4101  interface\\_coder_calc_MCG_0625_api.c /Fobuild\\win64\\_coder_calc_MCG_0625_api.obj",
+    "file": "interface/_coder_calc_MCG_0625_api.c",
+    "output": "build/win64/_coder_calc_MCG_0625_api.obj"
+  },
+  {
+    "directory": "F:\\Archive 归档\\0625\\Dynamic\\codegen\\mex\\calc_MCG_0625",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"F:\\Archive 归档\\0625\\Dynamic\" /I \".\\interface\" /I \"F:\\MATLAB\\R2025b\\extern\\include\" /I \".\" -DMODEL=calc_MCG_0625_mex /openmp /wd4101  interface\\_coder_calc_MCG_0625_mex.c /Fobuild\\win64\\_coder_calc_MCG_0625_mex.obj",
+    "file": "interface/_coder_calc_MCG_0625_mex.c",
+    "output": "build/win64/_coder_calc_MCG_0625_mex.obj"
+  },
+  {
+    "directory": "F:\\Archive 归档\\0625\\Dynamic\\codegen\\mex\\calc_MCG_0625",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"F:\\Archive 归档\\0625\\Dynamic\" /I \".\\interface\" /I \"F:\\MATLAB\\R2025b\\extern\\include\" /I \".\" -DMODEL=calc_MCG_0625_mex /openmp /wd4101  calc_aa_0318.c /Fobuild\\win64\\calc_aa_0318.obj",
+    "file": "calc_aa_0318.c",
+    "output": "build/win64/calc_aa_0318.obj"
+  },
+  {
+    "directory": "F:\\Archive 归档\\0625\\Dynamic\\codegen\\mex\\calc_MCG_0625",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"F:\\Archive 归档\\0625\\Dynamic\" /I \".\\interface\" /I \"F:\\MATLAB\\R2025b\\extern\\include\" /I \".\" -DMODEL=calc_MCG_0625_mex /openmp /wd4101  calc_pos_0318.c /Fobuild\\win64\\calc_pos_0318.obj",
+    "file": "calc_pos_0318.c",
+    "output": "build/win64/calc_pos_0318.obj"
+  },
+  {
+    "directory": "F:\\Archive 归档\\0625\\Dynamic\\codegen\\mex\\calc_MCG_0625",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"F:\\Archive 归档\\0625\\Dynamic\" /I \".\\interface\" /I \"F:\\MATLAB\\R2025b\\extern\\include\" /I \".\" -DMODEL=calc_MCG_0625_mex /openmp /wd4101  interface\\_coder_calc_MCG_0625_info.c /Fobuild\\win64\\_coder_calc_MCG_0625_info.obj",
+    "file": "interface/_coder_calc_MCG_0625_info.c",
+    "output": "build/win64/_coder_calc_MCG_0625_info.obj"
+  },
+  {
+    "directory": "F:\\Archive 归档\\0625\\Dynamic\\codegen\\mex\\calc_MCG_0625",
+    "command": "cl /c /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"F:\\Archive 归档\\0625\\Dynamic\" /I \".\\interface\" /I \"F:\\MATLAB\\R2025b\\extern\\include\" /I \".\" -DMODEL=calc_MCG_0625_mex /openmp /wd4101  F:\\MATLAB\\R2025b\\extern\\version\\c_mexapi_version.c /Fobuild\\win64\\c_mexapi_version.obj",
+    "file": "F:/MATLAB/R2025b/extern/version/c_mexapi_version.c",
+    "output": "build/win64/c_mexapi_version.obj"
+  }
+]

@@ -43,8 +43,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2003-05-08T01:06:03Z</dcterms:created>
   <dc:creator>J</dc:creator>
   <cp:lastModifiedBy>J</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2026-06-25T11:51:49Z</dcterms:modified>
-  <cp:revision>7.22</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2026-06-26T07:04:48Z</dcterms:modified>
+  <cp:revision>7.25</cp:revision>
   <cp:version>R2025b</cp:version>
 </cp:coreProperties>
 
@@ -115,7 +115,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:7.22&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:7.25&gt;</P>
     </ConfigManagerSettings>
     <EditorSettings>
       <P Name="LibraryLinkDisplay">none</P>
@@ -165,7 +165,7 @@ __MWOPC_PART_BEGIN__ /simulink/configSet0.xml
     <Array PropName="Components" Type="Simulink.ConfigComponent" Dimension="10*1">
       <Object ObjectID="2" ClassName="Simulink.SolverCC">
         <P Name="StartTime" Class="char">0.0</P>
-        <P Name="StopTime" Class="char">10</P>
+        <P Name="StopTime" Class="char">3.14</P>
         <P Name="AbsTol" Class="char">auto</P>
         <P Name="AutoScaleAbsTol" Class="char">on</P>
         <P Name="FixedStep" Class="char">0.001</P>
@@ -940,15 +940,15 @@ __MWOPC_PART_BEGIN__ /simulink/configSet0.xml
               <P Name="Version" Class="char">25.0.0</P>
               <P Name="Components" Class="double">[]</P>
               <P Name="DisabledProps" Class="double">[]</P>
-              <P Name="SimMechanicsUnsatisfiedHighPriorityTargets">warning</P>
+              <P Name="SimMechanicsRedundantBlock">warning</P>
+              <P Name="SimMechanicsJointTargetOverSpecification">error</P>
               <P Name="SimMechanicsRigidlyBoundBlock">error</P>
               <P Name="SimMechanicsConflictingReferenceFrames">warning</P>
-              <P Name="SimMechanicsJointTargetOverSpecification">error</P>
-              <P Name="SimMechanicsUnconnectedFramePorts">warning</P>
-              <P Name="SimMechanicsInvalidVisualProperty">warning</P>
               <P Name="SimMechanicsUnconnectedGeometryPorts">warning</P>
+              <P Name="SimMechanicsUnconnectedFramePorts">warning</P>
               <P Name="SimMechanicsCrossSectionNullEdge">warning</P>
-              <P Name="SimMechanicsRedundantBlock">warning</P>
+              <P Name="SimMechanicsUnsatisfiedHighPriorityTargets">warning</P>
+              <P Name="SimMechanicsInvalidVisualProperty">warning</P>
             </Object>
             <Object ObjectID="16" ClassName="simmechanics.ExplorerConfigSet">
               <P Name="Description" Class="char">Explorer</P>
@@ -962,23 +962,23 @@ __MWOPC_PART_BEGIN__ /simulink/configSet0.xml
           <P Name="DisabledProps" Class="double">[]</P>
         </Object>
         <P Name="DisabledProps" Class="double">[]</P>
-        <P Name="EditingMode">Full</P>
-        <P Name="SimscapeLogDecimation">1</P>
-        <P Name="SimscapeNominalValues">[{&quot;value&quot;:&quot;1&quot;,&quot;unit&quot;:&quot;A&quot;},{&quot;value&quot;:&quot;1&quot;,&quot;unit&quot;:&quot;bar&quot;},{&quot;value&quot;:&quot;1&quot;,&quot;unit&quot;:&quot;cm^2&quot;},{&quot;value&quot;:&quot;1&quot;,&quot;unit&quot;:&quot;cm^3/s&quot;},{&quot;value&quot;:&quot;1&quot;,&quot;unit&quot;:&quot;kJ/kg&quot;},{&quot;value&quot;:&quot;1&quot;,&quot;unit&quot;:&quot;kW&quot;},{&quot;value&quot;:&quot;1&quot;,&quot;unit&quot;:&quot;l&quot;},{&quot;value&quot;:&quot;1&quot;,&quot;unit&quot;:&quot;N&quot;},{&quot;value&quot;:&quot;1&quot;,&quot;unit&quot;:&quot;N*m&quot;},{&quot;value&quot;:&quot;1&quot;,&quot;unit&quot;:&quot;V&quot;}]</P>
         <P Name="ExplicitSolverDiagnosticOptions">warning</P>
-        <P Name="SimscapeCompileComponentReuse">off</P>
         <P Name="SimscapeLogName">simlog</P>
         <P Name="SimscapeLogDataHistory">5000</P>
         <P Name="SelectedTab"/>
-        <P Name="SimscapeLogOpenViewer">off</P>
+        <P Name="SimscapeNominalValues">[{&quot;value&quot;:&quot;1&quot;,&quot;unit&quot;:&quot;A&quot;},{&quot;value&quot;:&quot;1&quot;,&quot;unit&quot;:&quot;bar&quot;},{&quot;value&quot;:&quot;1&quot;,&quot;unit&quot;:&quot;cm^2&quot;},{&quot;value&quot;:&quot;1&quot;,&quot;unit&quot;:&quot;cm^3/s&quot;},{&quot;value&quot;:&quot;1&quot;,&quot;unit&quot;:&quot;kJ/kg&quot;},{&quot;value&quot;:&quot;1&quot;,&quot;unit&quot;:&quot;kW&quot;},{&quot;value&quot;:&quot;1&quot;,&quot;unit&quot;:&quot;l&quot;},{&quot;value&quot;:&quot;1&quot;,&quot;unit&quot;:&quot;N&quot;},{&quot;value&quot;:&quot;1&quot;,&quot;unit&quot;:&quot;N*m&quot;},{&quot;value&quot;:&quot;1&quot;,&quot;unit&quot;:&quot;V&quot;}]</P>
+        <P Name="SimscapeCompileComponentReuse">off</P>
+        <P Name="SimscapeLogLimitData">on</P>
+        <P Name="SimscapeOperatingPoint"/>
         <P Name="SimscapeUseOperatingPoints">off</P>
         <P Name="SimscapeLogSimulationStatistics">off</P>
-        <P Name="SimscapeLogLimitData">on</P>
-        <P Name="SimscapeLogType">none</P>
-        <P Name="SimscapeLogToSDI">off</P>
-        <P Name="SimscapeOperatingPoint"/>
+        <P Name="SimscapeLogOpenViewer">off</P>
         <P Name="SimscapeNormalizeSystem">on</P>
+        <P Name="EditingMode">Full</P>
+        <P Name="SimscapeLogToSDI">off</P>
+        <P Name="SimscapeLogType">none</P>
         <P Name="GlobalZcOffDiagnosticOptions">warning</P>
+        <P Name="SimscapeLogDecimation">1</P>
       </Object>
     </Array>
     <P Name="DisabledProps" Class="double">[]</P>
@@ -1124,9 +1124,9 @@ __MWOPC_PART_BEGIN__ /simulink/stateflow/machine.xml
 __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
-  <P Name="Location">[1706, -7, 3414, 1020]</P>
+  <P Name="Location">[-961, -6, 0, 1667]</P>
   <P Name="Open">on</P>
-  <P Name="ZoomFactor">60</P>
+  <P Name="ZoomFactor">40</P>
   <P Name="ReportName">simulink-default.rpt</P>
   <P Name="SIDHighWatermark">173</P>
   <Block BlockType="Clock" Name="Clock" SID="1">
@@ -1888,7 +1888,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
   <Object PropName="BdWindowsInfo" ObjectID="1" ClassName="Simulink.BDWindowsInfo">
     <Object PropName="WindowsInfo" ObjectID="2" ClassName="Simulink.WindowInfo">
       <P Name="IsActive" Class="logical">1</P>
-      <P Name="Location" Class="double">[1706.0, -7.0, 1708.0, 1027.0]</P>
+      <P Name="Location" Class="double">[-961.0, -6.0, 961.0, 1673.0]</P>
       <Object PropName="ModelBrowserInfo" ObjectID="3" ClassName="Simulink.ModelBrowserInfo">
         <P Name="Visible" Class="logical">0</P>
         <P Name="DockPosition" Class="char">Left</P>
@@ -1906,10 +1906,10 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="IsTabbed" Class="logical">1</P>
           <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
           <P Name="LoadSaveID" Class="char">0</P>
-          <P Name="Extents" Class="double">[2504.0, 1248.0]</P>
-          <P Name="ZoomFactor" Class="double">0.59999999999999987</P>
-          <P Name="Offset" Class="double">[-458.10255075877444, -939.72238301116352]</P>
-          <P Name="SceneRectInView" Class="double">[-458.10255075877444, -939.72238301116352, 2782.2222222222226, 1386.666666666667]</P>
+          <P Name="Extents" Class="double">[1384.0, 2225.0]</P>
+          <P Name="ZoomFactor" Class="double">0.4</P>
+          <P Name="Offset" Class="double">[-657.73726564113633, -532.5929827259597]</P>
+          <P Name="SceneRectInView" Class="double">[-657.73726564113633, -532.5929827259597, 2306.6666666666665, 3708.3333333333326]</P>
         </Object>
         <Object ObjectID="6">
           <P Name="IsActive" Class="logical">0</P>
@@ -1949,7 +1949,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Minimized" Class="char">Unset</P>
         </Object>
       </Array>
-      <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAAHKAAAEcfwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD8AAAAtQAABHEAAAAAAP////oAAAABAgAAAAL7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAACQAP////sAAABwAEwAaQBiAHIAYQByAHkAQgByAG8AdwBzAGUAcgAyACAATABpAGIAcgBhAHIAeQBCAHIAbwB3AHMAZQByAFMAdAB1AGQAaQBvAEMAbwBtAHAAbwBuAGUAbgB0AC8AYwBoAGEAcAAyAF8AMQBzAGkAbQAAAAAA/////wAAAAAAAAAA+wAAAGAAUwBpAG0AdQBsAGkAbgBrADoARQBkAGkAdABvAHIAOgBSAGUAZgBlAHIAZQBuAGMAZQBkAEYAaQBsAGUAcwAvAFIAZQBmAGUAcgBlAG4AYwBlAGQAIABGAGkAbABlAHMAAAAAAP////8AAADEAP///wAAAAEAAAIGAAAFAPwCAAAAAfwAAAC1AAAFAAAAAAAA/////AEAAAAB+wAAAFQARwBMAFUARQAyADoAUAByAG8AcABlAHIAdAB5AEkAbgBzAHAAZQBjAHQAbwByAC8AUAByAG8AcABlAHIAdAB5ACAASQBuAHMAcABlAGMAdABvAHIAAAAHzgAAAL8AAADgAP///wAAAAMAAAoAAAABNvwBAAAAAvwAAAAAAAAKAAAAAAAA////+v////8BAAAAAPv/////AAAAAAD/////AAADswD///8AAAoAAAAFAAAAAAEAAAACAAAAAQAAAAL8AAAAAA==</P>
+      <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAAHKAAAEcfwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD8AAAAtQAABHEAAAAAAP////oAAAABAgAAAAL7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAAB/AP////sAAABwAEwAaQBiAHIAYQByAHkAQgByAG8AdwBzAGUAcgAyACAATABpAGIAcgBhAHIAeQBCAHIAbwB3AHMAZQByAFMAdAB1AGQAaQBvAEMAbwBtAHAAbwBuAGUAbgB0AC8AYwBoAGEAcAAyAF8AMQBzAGkAbQAAAAAA/////wAAAAAAAAAA+wAAAGAAUwBpAG0AdQBsAGkAbgBrADoARQBkAGkAdABvAHIAOgBSAGUAZgBlAHIAZQBuAGMAZQBkAEYAaQBsAGUAcwAvAFIAZQBmAGUAcgBlAG4AYwBlAGQAIABGAGkAbABlAHMAAAAAAP////8AAACtAP///wAAAAEAAAIGAAAFAPwCAAAAAfwAAAC1AAAFAAAAAAAA/////AEAAAAB+wAAAFQARwBMAFUARQAyADoAUAByAG8AcABlAHIAdAB5AEkAbgBzAHAAZQBjAHQAbwByAC8AUAByAG8AcABlAHIAdAB5ACAASQBuAHMAcABlAGMAdABvAHIAAAAHzgAAAL8AAAHGAP///wAAAAMAAAoAAAABNvwBAAAAAvwAAAAAAAAKAAAAAAAA////+v////8BAAAAAPv/////AAAAAAD/////AAADswD///8AAAWgAAAI0QAAAAEAAAACAAAAAQAAAAL8AAAAAA==</P>
       <Array PropName="PersistedApps" Type="Cell" Dimension="0*1"/>
       <P Name="WindowUuid" Class="char">4eb04489-d5bd-4670-b17a-8f2447fad6b7</P>
     </Object>

@@ -21,6 +21,13 @@ RP_data = Module_Lib();
 [module_out, install_out, align_out, sequence_out] = expand_module_units( ...
     module_raw(1:n), install_raw(1:n), align_raw(1:n), sequence_raw(1:n), RP_data);
 
+%% 自定义构型
+% module_out   = [1 2 1 2 1 2 1];
+install_out  = ones(1,numel(module_out));
+align_out    = zeros(1,numel(module_out));
+sequence_out = 0:numel(module_out)-1;
+
+%% 模型生成
 LP = LP_generate(module_out, install_out, align_out, sequence_out, RP_data);
 SV = SV_generate(LP); %#ok<NASGU>
 rb = calc_Dy_Para_0625(LP, RP_data);
